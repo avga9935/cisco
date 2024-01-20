@@ -748,7 +748,7 @@ serverFiles:
       - job_name: test
         static_configs:
           - targets:
-            - 10.42.0.172:8889
+            - o-opentelemetry-collector:8889
 
       # A scrape configuration for running Prometheus on a Kubernetes cluster.
       # This uses separate scrape configs for cluster components (i.e. API server, node)

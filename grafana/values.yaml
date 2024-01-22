@@ -207,7 +207,7 @@ gossipPortName: gossip
 service:
   enabled: true
   type: LoadBalancer
-  externalIPs: [10.14.142.28]
+  externalIPs: [VMIP] # Use your VMIP here
   loadBalancerIP: ""
   loadBalancerClass: ""
   loadBalancerSourceRanges: []

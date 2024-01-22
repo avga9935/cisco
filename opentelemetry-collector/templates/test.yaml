@@ -6,7 +6,7 @@ spec:
   nodeSelector:
   containers:
     - name: python
-      image: avga9935/cisco:1
+      image: avga9935/flex:1
       
       # command: [ "/bin/bash", "-c", "--" ]
       # args: [ "while true; do sleep 30; done;" ]

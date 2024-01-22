@@ -657,7 +657,7 @@ server:
     ## List of IP addresses at which the Prometheus server service is available
     ## Ref: https://kubernetes.io/docs/concepts/services-networking/service/#external-ips
     ##
-    externalIPs: [10.14.142.28]
+    externalIPs: [VMIP] # use your vm ip to access
 
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
